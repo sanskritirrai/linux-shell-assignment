@@ -1,7 +1,7 @@
 #!/bin/bash
 #Download Code
 
-URL="$1"
+URL="$https://www.globalhungerindex.org/pdf/en/2024.pdf"
 DEST="$HOME/downloads"
 
 [ -z "$URL" ] && echo "Usage: $0 <url>" && exit 1
